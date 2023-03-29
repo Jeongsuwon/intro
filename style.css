@@ -68,10 +68,10 @@
 }
 .travel li{
     display: inline-block;
-    margin : 40px;
+    margin : 10px;
 }
 .travel li img{
-    width: 60%;
+    width: 50%;
     object-fit: cover; /* 사진의 크기를 공간에 알맞게 조정 */
 }
 .travel li p{
