@@ -1,53 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--meta:vp + tab하면-->
-    <title>정수원</title>
-    <link rel="stylesheet" href="intro.css">
-    <link rel="stylesheet" href="table.css" media="screen and (max-width : 768px)">
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스마트 웹 &amp; 웹 개발자</title> <!--&amp;--> <!--div는 수직 span은 수평-->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>                     
 <body>
-    <div id="wrap">
-        <h1>자기소개서</h1>
-        <h2>1.기본사항</h2>
-        <p class="text1">안녕하세요, 제 이름은 <i>정수원입니다.</i>  </p>
-        <p>먼저 선뜻 다가서지는 못하는 성격이지만 빨리 친해질 수 있도록 노력해보겠습니다.</p>
-        <img src="images/me.jpeg" alt="me">
-        <ul>
-            <li>나이: 31</li>
-            <li>거주지: 북구</li>
-            <li>MBTI: INFP</li>
-        </ul>
-        <h3>2.학력/경력</h3>
-        <p>학교는 동신대를 졸업하였고, 2017년도에 학교 재학 중에 취업연계로 <b>혁신도시</b>에서 IT 회사에 다녔습니다. </p>
-        <img src="images/work.jpg" alt="직장">
-        <h4>3.여행가고 싶은 곳</h4>
-        <ol class="travel">
-            <li>오사카</li>
-            <img src="images/japan.jpg" alt="일본">
-            <li>코사무이</li>
-            <img src="images/코사무이.jpg" alt="태국">
-            <li>다낭</li>
-            <img src="images\다낭.jpg" alt="베트남">
-        </ol>
-        <h5>4.좋아하는 것과 싫어하는 것</h5>
-        <p>수영</p>
-        <img src="images/swim.jpg" alt="수영">
-        <p>거짓말</p> 
-        <img src="images/lie.jpg" alt="거짓말">
-        <h6>5.앞으로 보고 싶은 영화나 드라마</h6>
-        <ul class="movie">
-            <li>존윅 - 존 윅의 모든 시리즈를 보기도 했고, 새로운 인물인 견자단이 나오는 시리즈</li>
-            <li>더 글로리 - 사람들의 호불호가 갈리는 드라마이기도 하고, 요즘에도 일어나는 일들을 실화를
-                바탕으로 만든 드라마 </li>
-            <img src="images/john wick.jpg" alt="영화">
-            <img src="images/더 글로리.jpg" alt="드라마">
-            
-        </ul>
-        
-        
+        <div class="blue-bg" id="avatar-box">
+                <div id="avatar">
+                    <img src="http://picsum.photos/170/170" alt="프로필 사진">
+                </div>
+            </div>
+
+    <div class="summary">
+        <h1>정수원</h1> <!-- 제목 : 중요한 내용, 검색엔진이 먼저 찾는 요소!!-->
+        <p class="mbti">INFP</p>   
     </div>
+    <div class="greeting">
+        <h2>인사말</h2>
+        <p>안녕하세요. 이번에 PBL 앱/웹 개발자 양성과정 3기
+            과정을 함께 하게 되었습니다. 같이 열심히 해서
+            좋은 마무리하면 좋겠습니다.</p>
+    </div>
+    <div class="info">
+            <h2>기본정보</h2>
+            <ul>
+                <li>나이
+                <p>31</p>
+                </li>
+                <li>키
+                <p>178</p>
+                </li>
+                <li>혈액형
+                <p>O형</p>
+                </li>
+            </ul>
+    </div>
+    <div class="job">
+        <h2>학력/경력</h2>
+        <ul>
+        <li>동신대학교 졸업</li>
+        <li>우정사업본부 인턴</li>
+        </ul>
+    </div>
+    <div class="movie">
+        <h2>앞으로 보고 싶은 영화/드라마</h2>
+        <ul>
+        <li>
+            <img src ="images/더 글로리.jpg" alt="드라마">
+            <p>더 글로리</p>
+            <img src ="images/john wick.jpg" alt="존윅">
+            <p>존 윅4</p>
+        </li>
+    </ul>
+    </div>
+    <div class="client">
+        <p>&copy; Jeongsuwon</p>
+        <a href="#">▲TOP</a>
+    </div>
+
 </body>
 </html>
