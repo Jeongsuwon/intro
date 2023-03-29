@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+}
+p{
+    background-color: rgb(231, 200, 169);
+    color: rgb(35, 36, 24);
+
+    
+}
+ .me{
+    border-width: 3px; /*선-두께 */
+    border-style: dashed; /*선-종류 */
+    margin: 15px;
+}
+
+.travel{
+    background-color:rgba(228, 218, 143, 0.694);
+}
+.travel li{
+    background-color:rgba(228, 218, 143, 0.694)
+}
+
+
+body{
+    background-color: rgb(234, 194, 140);
+}
+#wrap{
+    background-color: white;
+    padding: 10px 20px;
+        margin: 20px;
+}
+
+.padding{
+    padding: 15px;
+}
+.border{
+    border: 1px solid #222;
+
+}
