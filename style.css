@@ -39,11 +39,13 @@
 .greeting p{
     
     color:gray;
+    width: 50%;
 }
 
 .info{
     
     text-align: center;
+    
     
 }
 .info h2{
@@ -52,6 +54,13 @@
 .info ul li{
     display: inline-block;
     margin : 40px;
+}
+.interest{
+    text-align: center;
+}
+.interest li{
+    display: inline-block;
+    margin: 40px;
 }
 .movie li{
     display: inline-block;
@@ -101,5 +110,3 @@
         background-color: #7326F0;
     }
 }
-    
-
