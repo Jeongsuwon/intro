@@ -30,6 +30,7 @@
 }
 .greeting{
     
+    
     text-align: center;
 }
 
@@ -39,7 +40,7 @@
 .greeting p{
     
     color:gray;
-    width: 50%;
+    
 }
 
 .info{
